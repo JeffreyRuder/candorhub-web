@@ -13,6 +13,7 @@
 * redux-router
 * Masonry.js
 * Material-UI for React (material design elements)
+* Mocha, Chai, skin-deep for testing
 
 ## Installation
 
