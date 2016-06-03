@@ -2,7 +2,17 @@
 
 ## Introduction
 
-Candorhub is an image-sharing site built with React and Redux. It consumes JSON data from a RESTful Rails API. Users can upload images, comment on images, and view galleries of images. Comments are validated by basic sentiment analysis logic to prevent submission of overly negative or trollish comments.
+[Candorhub](http://candorhub.com) is an image-sharing site built with React and Redux. It consumes JSON data from a RESTful Rails API. Images are base64 encoded for upload to AWS S3 and served from a Cloudfront CDN. Users can upload images with tags, comment on images, and view galleries of images. Comments are validated by basic sentiment analysis logic to prevent submission of overly negative or trollish comments.
+
+## Technologies Used
+
+* React
+* Redux
+* CSS and SASS
+* redux-auth
+* redux-router
+* Masonry.js
+* Material-UI for React (material design elements)
 
 ## Installation
 
